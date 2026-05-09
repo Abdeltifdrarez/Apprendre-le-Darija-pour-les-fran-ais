@@ -1,6 +1,6 @@
 # Darija Learn — Android Studio (Java)
 
-Application Android native pour apprendre le **Darija** (arabe marocain), inspirée de Duolingo.
+Application Android native pour apprendre le **Darija** pour les français (arabe marocain), inspirée de Duolingo.
 
 - **Langage** : Java
 - **IDE** : Android Studio (Iguana / Koala / Panda 2 ou plus récent)
