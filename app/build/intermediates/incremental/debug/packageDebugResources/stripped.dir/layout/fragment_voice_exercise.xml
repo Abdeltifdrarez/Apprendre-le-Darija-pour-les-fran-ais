@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Instruction -->
+        <TextView
+            android:id="@+id/voice_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_muted"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Écoute et répète"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <!-- Carte : écouter le mot -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="24dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mot à prononcer"
+                android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/voice_french"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Boutons écouter -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/voice_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/primary"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:text="🔊 Écouter" />
+
+                <Button
+                    android:id="@+id/voice_slow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/accent"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:text="🐢 Lentement" />
+            </LinearLayout>
+
+            <!-- Réponse révélée -->
+            <TextView
+                android:id="@+id/voice_darija"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/text_primary"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/voice_arabic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/primary"
+                android:textSize="22sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <!-- Section microphone -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="10dp"
+            android:text="Maintenant, répétez à voix haute :"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- Bouton microphone centré -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/voice_mic"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:backgroundTint="@color/primary"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textAllCaps="false"
+                android:text="🎤" />
+
+            <TextView
+                android:id="@+id/voice_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Appuyez sur 🎤 pour parler"
+                android:textColor="@color/text_muted"
+                android:textSize="14sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Ce que l'app a reconnu -->
+        <TextView
+            android:id="@+id/voice_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:padding="12dp"
+            android:background="@drawable/bg_card"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <!-- Feedback correct -->
+        <LinearLayout
+            android:id="@+id/feedback_correct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:gravity="center"
+            android:background="#E8F5E9"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✅ Bonne prononciation !"
+                android:textColor="#2E7D32"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Feedback incorrect -->
+        <LinearLayout
+            android:id="@+id/feedback_wrong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:padding="14dp"
+            android:gravity="center"
+            android:background="#FFEBEE"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="❌ Pas tout à fait, réessayez !"
+                android:textColor="#C62828"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Bouton révéler (si pas encore tenté) -->
+        <Button
+            android:id="@+id/voice_reveal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="@color/primary"
+            android:textAllCaps="false"
+            android:text="Révéler la réponse" />
+
+        <!-- Bouton suivant (après tentative) -->
+        <Button
+            android:id="@+id/voice_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:text="Suivant →"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>

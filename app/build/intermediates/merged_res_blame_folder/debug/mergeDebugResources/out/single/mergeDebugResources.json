@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_profile.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_item_lesson.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/item_lesson.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_ic_mic.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/menu_bottom_nav.xml.flat",
+        "source": "com.darija.learn.app-main-34:/menu/bottom_nav.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_bg_progress_track.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/bg_progress_track.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_bg_card.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_bg_pill.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/bg_pill.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.darija.learn.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_writing_exercise.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_writing_exercise.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_practice.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_practice.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_video_exercise.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_video_exercise.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_bg_unit_header.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/bg_unit_header.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_ic_profile.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_bg_option.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/bg_option.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/raw_tea_video.mp4.flat",
+        "source": "com.darija.learn.app-main-34:/raw/tea_video.mp4"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_item_vocab_row.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/item_vocab_row.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_ic_close.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_activity_lesson.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/activity_lesson.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_text_exercise.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_text_exercise.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_ic_speaker.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/ic_speaker.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_voice_exercise.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_voice_exercise.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_ic_practice.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/ic_practice.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_bg_circle.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/bg_circle.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_item_option.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/item_option.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_activity_lesson_complete.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/activity_lesson_complete.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_quiz_exercise.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_quiz_exercise.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.darija.learn.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_fragment_home.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.darija.learn.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_item_unit.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/item_unit.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/drawable_ic_home.xml.flat",
+        "source": "com.darija.learn.app-main-34:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.darija.learn.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.darija.learn.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.darija.learn.app-debug-32:/layout_item_unit_progress.xml.flat",
+        "source": "com.darija.learn.app-main-34:/layout/item_unit_progress.xml"
+    }
+]

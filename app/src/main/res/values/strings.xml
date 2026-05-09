@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Darija Learn</string>
+    <string name="tab_learn">Apprendre</string>
+    <string name="tab_practice">Pratiquer</string>
+    <string name="tab_profile">Profil</string>
+    <string name="continue_btn">Continuer</string>
+    <string name="check_btn">Vérifier</string>
+    <string name="hint_btn">Indice</string>
+</resources>
